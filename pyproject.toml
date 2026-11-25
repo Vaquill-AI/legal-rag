@@ -1,0 +1,73 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "legal-rag"
+version = "0.0.1.dev0"
+description = "Retrieval techniques for legal AI: ingestion, chunking, retrieval and verification, with pluggable providers."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Vaquill" }]
+keywords = ["legal", "rag", "retrieval", "llm", "citations", "mcp", "chunking"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries",
+]
+dependencies = [
+    "pydantic>=2.6",
+]
+
+[project.optional-dependencies]
+chunking = ["tiktoken>=0.7", "semchunk>=2.2"]
+retrieval = ["tiktoken>=0.7"]
+voyage = ["voyageai>=0.3"]
+verification = []
+ingestion = ["tiktoken>=0.7"]
+# Office, email and HTML extraction. All are optional and imported lazily at use time.
+ingestion-office = [
+    "python-docx>=1.1",
+    "openpyxl>=3.1",
+    "python-pptx>=0.6.23",
+    "xlrd>=2.0",
+    "olefile>=0.47",
+    "extract-msg>=0.48",
+    "beautifulsoup4>=4.12",
+    "striprtf>=0.0.26",
+    "defusedxml>=0.7",
+    "pillow>=10",
+    "pillow-heif>=0.16",
+]
+# PDF layout extraction. pymupdf and pymupdf4llm are AGPL or commercially licensed.
+# Check the licence before installing this extra in a distributed product.
+ingestion-pdf-agpl = ["pymupdf>=1.24", "pymupdf4llm>=0.0.17"]
+# Only needed for ToolResult.to_mcp(), which builds the MCP SDK's own result type.
+mcp = ["mcp>=1.2"]
+all = ["legal-rag[chunking,retrieval,verification,ingestion,mcp]"]
+dev = ["pytest>=8", "pytest-asyncio>=0.23", "ruff>=0.5", "legal-rag[ingestion-office]"]
+
+[project.urls]
+Homepage = "https://github.com/Vaquill-AI/legal-rag"
+Documentation = "https://github.com/Vaquill-AI/legal-rag/tree/main/docs"
+Issues = "https://github.com/Vaquill-AI/legal-rag/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/legal_rag"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+addopts = "-p no:cacheprovider"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+src = ["src", "tests"]

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "document_types": [
+    "complaint", "answer", "motion", "order", "judgment", "notice", "petition", "brief",
+    "affidavit", "declaration", "subpoena", "discovery", "deed", "contract", "agreement",
+    "lease", "will_or_trust", "correspondence", "exhibit", "transcript", "memorandum",
+    "pleading", "financial", "scan_or_image", "other"
+  ],
+  "court_levels": [
+    "trial", "appellate", "state_supreme", "federal_district", "federal_appellate",
+    "federal_supreme", "administrative", "other", "unknown"
+  ]
+}

@@ -1,0 +1,162 @@
+{
+ "admin_proc_cfr_titles": [
+  4,
+  5,
+  13,
+  43,
+  48
+ ],
+ "cfr_title_allowlist": {
+  "antitrust": [
+   16,
+   28
+  ],
+  "banking": [
+   12,
+   17
+  ],
+  "bankruptcy": [
+   28
+  ],
+  "civil_procedure": [],
+  "civil_rights": [
+   28,
+   29,
+   34
+  ],
+  "communications": [
+   47
+  ],
+  "constitutional": [],
+  "copyright": [
+   37
+  ],
+  "criminal": [
+   21,
+   28
+  ],
+  "education": [
+   34
+  ],
+  "energy": [
+   10,
+   18,
+   40
+  ],
+  "environmental": [
+   40
+  ],
+  "evidence": [],
+  "food_drug": [
+   21
+  ],
+  "general": null,
+  "healthcare": [
+   21,
+   42,
+   45
+  ],
+  "immigration": [
+   8
+  ],
+  "labor": [
+   29
+  ],
+  "patent": [
+   37
+  ],
+  "securities": [
+   17
+  ],
+  "tax": [
+   26
+  ],
+  "trademark": [
+   37
+  ],
+  "transportation": [
+   14,
+   23,
+   49
+  ]
+ },
+ "usc_title_allowlist": {
+  "antitrust": [
+   15
+  ],
+  "banking": [
+   12,
+   15
+  ],
+  "bankruptcy": [
+   11,
+   28
+  ],
+  "civil_procedure": [
+   28
+  ],
+  "civil_rights": [
+   28,
+   42
+  ],
+  "communications": [
+   47
+  ],
+  "constitutional": [
+   28,
+   42
+  ],
+  "copyright": [
+   17
+  ],
+  "criminal": [
+   18,
+   21
+  ],
+  "education": [
+   20
+  ],
+  "energy": [
+   16,
+   42
+  ],
+  "environmental": [
+   16,
+   33,
+   42
+  ],
+  "evidence": [
+   28
+  ],
+  "food_drug": [
+   21
+  ],
+  "general": null,
+  "healthcare": [
+   21,
+   42
+  ],
+  "immigration": [
+   8
+  ],
+  "labor": [
+   29
+  ],
+  "patent": [
+   35
+  ],
+  "securities": [
+   15
+  ],
+  "tax": [
+   26
+  ],
+  "trademark": [
+   15
+  ],
+  "transportation": [
+   14,
+   49
+  ]
+ }
+}

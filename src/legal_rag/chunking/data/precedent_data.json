@@ -1,0 +1,619 @@
+{
+  "version": 1,
+  "default_groups": [
+    "us",
+    "uk_commonwealth"
+  ],
+  "year_patterns": {
+    "us": [
+      [
+        "(\\d{4})\\s+U\\.?\\s*S\\.?(?:\\s+\\d+)?",
+        "524 U.S. 236 or 1998 US"
+      ],
+      [
+        "\\d+\\s+F\\.\\s*(?:2d|3d|4th)\\s+\\d+.*?\\(.*?(\\d{4})\\)",
+        "123 F.3d 456 (9th Cir. 1998)"
+      ],
+      [
+        "\\d+\\s+F\\.\\s*Supp\\.?\\s*(?:2d|3d)?\\s+\\d+.*?\\(.*?(\\d{4})\\)",
+        "F. Supp. 2d"
+      ],
+      [
+        "(\\d{4})\\s+S\\.?\\s*Ct\\.?",
+        "140 S. Ct. 1234"
+      ],
+      [
+        "(\\d{4})\\s+L\\.?\\s*Ed\\.?",
+        "L. Ed. citations"
+      ],
+      [
+        "(\\d{4})\\s+WL\\s+\\d+",
+        "Online database citations: 2020 WL 123456"
+      ]
+    ],
+    "uk_commonwealth": [
+      [
+        "\\[(\\d{4})\\]\\s+\\d*\\s*All\\s*E\\s*R",
+        "[1990] 1 All ER 456"
+      ],
+      [
+        "\\[(\\d{4})\\]\\s+\\d*\\s*WLR",
+        "[2020] 1 WLR 123"
+      ],
+      [
+        "\\[(\\d{4})\\]\\s+AC",
+        "[2019] AC 456"
+      ],
+      [
+        "\\[(\\d{4})\\]\\s+QB",
+        "[2020] QB 123"
+      ],
+      [
+        "\\[(\\d{4})\\]\\s+KB",
+        "[1920] KB 123 (King's Bench)"
+      ],
+      [
+        "\\[(\\d{4})\\]\\s+Ch",
+        "[2020] Ch 123 (Chancery)"
+      ],
+      [
+        "\\[(\\d{4})\\]\\s+UKSC",
+        "[2020] UKSC 12"
+      ],
+      [
+        "\\[(\\d{4})\\]\\s+UKHL",
+        "[2009] UKHL 12"
+      ],
+      [
+        "\\[(\\d{4})\\]\\s+UKPC",
+        "[2020] UKPC 12 (Privy Council)"
+      ],
+      [
+        "\\[(\\d{4})\\]\\s+EWCA",
+        "[2019] EWCA Civ 123"
+      ],
+      [
+        "\\[(\\d{4})\\]\\s+EWHC",
+        "[2019] EWHC 123"
+      ],
+      [
+        "\\[(\\d{4})\\]\\s+HCA",
+        "[2020] HCA 12 (Australia)"
+      ],
+      [
+        "\\[(\\d{4})\\]\\s+NZSC",
+        "[2020] NZSC 12 (New Zealand)"
+      ],
+      [
+        "\\[(\\d{4})\\]\\s+SCC",
+        "[2020] SCC 12 (Canada - square bracket)"
+      ],
+      [
+        "(\\d{4})\\s+SCC\\s+\\d+",
+        "2020 SCC 12 (Canada - no bracket)"
+      ]
+    ],
+    "india": [
+      [
+        "AIR\\s+(\\d{4})",
+        "All India Reporter: AIR 1976 SC 1207"
+      ],
+      [
+        "(\\d{4})\\s+SCC\\s+OnLine",
+        "SCC OnLine: 2020 SCC OnLine SC 123"
+      ],
+      [
+        "(\\d{4})\\s+SCC(?!\\s+OnLine)",
+        "Supreme Court Cases: (2017) 10 SCC 1"
+      ],
+      [
+        "(\\d{4})\\s+INSC",
+        "India National SC: 2020 INSC 12 (neutral citation)"
+      ],
+      [
+        "(\\d{4})\\s+SCR",
+        "Supreme Court Reports: 1950 SCR 88"
+      ],
+      [
+        "JT\\s+(\\d{4})",
+        "Judgment Today: JT 2019 (5) SC 123"
+      ],
+      [
+        "(\\d{4})\\s+Scale",
+        "Supreme Court Almanac: (2018) 3 Scale 456"
+      ],
+      [
+        "MANU/[A-Z]+/\\d+/(\\d{4})",
+        "Online database: MANU/SC/1234/2020"
+      ],
+      [
+        "(\\d{4})\\s+All\\s*L\\s*J",
+        "Allahabad Law Journal"
+      ],
+      [
+        "(\\d{4})\\s+AWC",
+        "Allahabad Weekly Cases"
+      ],
+      [
+        "(\\d{4})\\s+ARC",
+        "Allahabad Rent Cases"
+      ],
+      [
+        "(\\d{4})\\s+ALT",
+        "Andhra Law Times"
+      ],
+      [
+        "(\\d{4})\\s+ALD",
+        "Andhra Legal Decisions"
+      ],
+      [
+        "(\\d{4})\\s+APLJ",
+        "Andhra Pradesh Law Journal"
+      ],
+      [
+        "(\\d{4})\\s+AnWR",
+        "Andhra Weekly Reporter"
+      ],
+      [
+        "(\\d{4})\\s+BLJR",
+        "Bihar Law Journal Reports"
+      ],
+      [
+        "(\\d{4})\\s+JCR",
+        "Jharkhand Cases Reporter"
+      ],
+      [
+        "(\\d{4})\\s+Bom\\s*L\\s*R",
+        "Bombay Law Reporter"
+      ],
+      [
+        "(\\d{4})\\s+BomCR",
+        "Bombay Cases Reporter"
+      ],
+      [
+        "(\\d{4})\\s+ALLMR",
+        "All Maharashtra Law Reporter"
+      ],
+      [
+        "(\\d{4})\\s+MhLJ",
+        "Maharashtra Law Journal"
+      ],
+      [
+        "(\\d{4})\\s+Cal\\s*L\\s*[TJ]",
+        "Calcutta Law Times/Journal"
+      ],
+      [
+        "(\\d{4})\\s+CHN",
+        "Calcutta High Court Notes"
+      ],
+      [
+        "(\\d{4})\\s+CWN",
+        "Calcutta Weekly Notes"
+      ],
+      [
+        "(\\d{4})\\s+DLT",
+        "Delhi Law Times"
+      ],
+      [
+        "(\\d{4})\\s+DRJ",
+        "Delhi Reported Journal"
+      ],
+      [
+        "(\\d{4})\\s+GLR",
+        "Gujarat Law Reporter"
+      ],
+      [
+        "(\\d{4})\\s+GLH",
+        "Gujarat Law Herald"
+      ],
+      [
+        "(\\d{4})\\s+GauLR",
+        "Gauhati Law Reports"
+      ],
+      [
+        "(\\d{4})\\s+GLT",
+        "Gauhati Law Times"
+      ],
+      [
+        "(\\d{4})\\s+GLD",
+        "Gauhati Law Decisions"
+      ],
+      [
+        "(\\d{4})\\s+JKJ",
+        "JK Judgments"
+      ],
+      [
+        "(\\d{4})\\s+KarLJ",
+        "Karnataka Law Journal"
+      ],
+      [
+        "(\\d{4})\\s+KCCR",
+        "Karnataka Civil and Criminal Reporter"
+      ],
+      [
+        "(\\d{4})\\s+MysLJ",
+        "Mysore Law Journal (historical)"
+      ],
+      [
+        "(\\d{4})\\s+KLT",
+        "Kerala Law Times"
+      ],
+      [
+        "(\\d{4})\\s+KLJ",
+        "Kerala Law Journal"
+      ],
+      [
+        "(\\d{4})\\s+Ker\\s*L\\s*T",
+        "Kerala Law Times (alt format)"
+      ],
+      [
+        "(\\d{4})\\s+MPLJ",
+        "MP Law Journal"
+      ],
+      [
+        "(\\d{4})\\s+MPHT",
+        "MP High Court Today"
+      ],
+      [
+        "(\\d{4})\\s+MLJ",
+        "Madras Law Journal"
+      ],
+      [
+        "(\\d{4})\\s+CTC",
+        "Current Tamil Nadu Cases"
+      ],
+      [
+        "(\\d{4})\\s+OLR",
+        "Orissa Law Reviews"
+      ],
+      [
+        "(\\d{4})\\s+CLT",
+        "Cuttack Law Times"
+      ],
+      [
+        "(\\d{4})\\s+PLR",
+        "Punjab Law Reporter"
+      ],
+      [
+        "(\\d{4})\\s+RLR",
+        "Rajasthan Law Reporter"
+      ],
+      [
+        "(\\d{4})\\s+RLW",
+        "Rajasthan Law Weekly"
+      ],
+      [
+        "(\\d{4})\\s+WLC",
+        "Western Law Cases"
+      ],
+      [
+        "(\\d{4})\\s+AIHC",
+        "All India High Court Cases"
+      ],
+      [
+        "ILR\\s+(\\d{4})",
+        "Indian Law Reports (all states)"
+      ],
+      [
+        "(\\d{4})\\s+ILR",
+        "Indian Law Reports (alt format)"
+      ],
+      [
+        "(\\d{4})\\s+Cri\\s*L\\s*J",
+        "Criminal Law Journal"
+      ],
+      [
+        "(\\d{4})\\s+Crimes",
+        "Crimes reporter"
+      ],
+      [
+        "(\\d{4})\\s+CCR",
+        "Current Criminal Reports"
+      ],
+      [
+        "(\\d{4})\\s+JCC",
+        "Journal of Criminal Cases"
+      ],
+      [
+        "(\\d{4})\\s+Comp\\s*Cas",
+        "Company Cases"
+      ],
+      [
+        "(\\d{4})\\s+CompLJ",
+        "Company Law Journal"
+      ],
+      [
+        "(\\d{4})\\s+CLA",
+        "Corporate Law Adviser"
+      ],
+      [
+        "(\\d{4})\\s+SCL",
+        "Sebi and Corporate Laws"
+      ],
+      [
+        "(\\d{4})\\s+ITR",
+        "Income Tax Reporter"
+      ],
+      [
+        "(\\d{4})\\s+ITD",
+        "Income Tax Tribunal Decisions"
+      ],
+      [
+        "(\\d{4})\\s+CTR",
+        "Current Tax Reporter"
+      ],
+      [
+        "(\\d{4})\\s+TAXMAN",
+        "Taxman"
+      ],
+      [
+        "(\\d{4})\\s+TTJ",
+        "Tax Tribunal Judgments"
+      ],
+      [
+        "(\\d{4})\\s+SOT",
+        "Selected Orders of ITAT"
+      ],
+      [
+        "(\\d{4})\\s+VST",
+        "VAT and Service Tax Cases"
+      ],
+      [
+        "(\\d{4})\\s+STC",
+        "Sales Tax Cases"
+      ],
+      [
+        "(\\d{4})\\s+STR",
+        "Service Tax Review"
+      ],
+      [
+        "(\\d{4})\\s+STJ",
+        "Service Tax Journal"
+      ],
+      [
+        "(\\d{4})\\s+ELT",
+        "Excise Law Times"
+      ],
+      [
+        "(\\d{4})\\s+ECC",
+        "Excise & Customs Cases"
+      ],
+      [
+        "(\\d{4})\\s+ECR",
+        "Excise and Custom Reports"
+      ],
+      [
+        "(\\d{4})\\s+Lab\\s*IC",
+        "Labour and Industrial Cases"
+      ],
+      [
+        "(\\d{4})\\s+LLJ",
+        "Labour Law Journal"
+      ],
+      [
+        "(\\d{4})\\s+FLR",
+        "Factory Law Reporter"
+      ],
+      [
+        "(\\d{4})\\s+SLR",
+        "Services Law Reporter"
+      ],
+      [
+        "(\\d{4})\\s+SLJ",
+        "Services Law Journal"
+      ],
+      [
+        "(\\d{4})\\s+ESC",
+        "Education and Service Cases"
+      ],
+      [
+        "(\\d{4})\\s+SCT",
+        "Service Cases Today"
+      ],
+      [
+        "(\\d{4})\\s+CPJ",
+        "Consumer Protection Judgments"
+      ],
+      [
+        "(\\d{4})\\s+CPR",
+        "Consumer Protection Reporter"
+      ],
+      [
+        "(\\d{4})\\s+ARBLR",
+        "Arbitration Law Reporter"
+      ],
+      [
+        "(\\d{4})\\s+RArJ",
+        "Recent Arbitration Judgments"
+      ],
+      [
+        "(\\d{4})\\s+BC",
+        "Banking Cases"
+      ],
+      [
+        "(\\d{4})\\s+ACC",
+        "Accident and Compensation Cases"
+      ],
+      [
+        "(\\d{4})\\s+ACJ",
+        "Accidents Claims Journal"
+      ],
+      [
+        "(\\d{4})\\s+DMC",
+        "Divorce and Matrimonial Cases"
+      ],
+      [
+        "(\\d{4})\\s+PTC",
+        "Patent & Trade Marks Cases"
+      ],
+      [
+        "(\\d{4})\\s+MIPR",
+        "MIPR (IP Reporter)"
+      ],
+      [
+        "(\\d{4})\\s+CompAT",
+        "Competition Law Reports"
+      ],
+      [
+        "(\\d{4})\\s+ELR",
+        "Energy Law Reports"
+      ],
+      [
+        "(\\d{4})\\s+RLT",
+        "Revenue Law Times"
+      ],
+      [
+        "(\\d{4})\\s+BusLR",
+        "Business Law Reports"
+      ],
+      [
+        "(\\d{4})\\s+NCLT",
+        "National Company Law Tribunal"
+      ],
+      [
+        "(\\d{4})\\s+NCLAT",
+        "NCLT Appellate Tribunal"
+      ],
+      [
+        "(\\d{4})\\s+CLB",
+        "Company Law Board (historical)"
+      ],
+      [
+        "(\\d{4})\\s+SAT",
+        "Securities Appellate Tribunal"
+      ],
+      [
+        "(\\d{4})\\s+SEBI",
+        "SEBI Orders"
+      ],
+      [
+        "(\\d{4})\\s+ITAT",
+        "Income Tax Appellate Tribunal"
+      ],
+      [
+        "(\\d{4})\\s+CESTAT",
+        "Customs Excise & Service Tax Appellate"
+      ],
+      [
+        "(\\d{4})\\s+DRT",
+        "Debt Recovery Tribunal"
+      ],
+      [
+        "(\\d{4})\\s+DRAT",
+        "DRT Appellate Tribunal"
+      ],
+      [
+        "(\\d{4})\\s+CAT",
+        "Central Administrative Tribunal"
+      ],
+      [
+        "(\\d{4})\\s+NCDRC",
+        "National Consumer Disputes Redressal"
+      ],
+      [
+        "(\\d{4})\\s+SCDRC",
+        "State Consumer Disputes Redressal"
+      ],
+      [
+        "(\\d{4})\\s+TDSAT",
+        "Telecom Disputes Settlement"
+      ],
+      [
+        "(\\d{4})\\s+RERA",
+        "Real Estate Regulatory Authority"
+      ],
+      [
+        "(\\d{4})\\s+APTEL",
+        "Appellate Tribunal for Electricity"
+      ],
+      [
+        "(\\d{4})\\s+LiveLaw",
+        "LiveLaw citations: 2022 LiveLaw (Bom) 258"
+      ],
+      [
+        "(\\d{4})\\s+LL",
+        "LiveLaw short form"
+      ],
+      [
+        "(\\d{4})\\s+SCC\\s+Online",
+        "SCC Online (alt spacing)"
+      ],
+      [
+        "(\\d{4})\\s+Indian\\s*Kanoon",
+        "Indian Kanoon"
+      ],
+      [
+        "(\\d{4})\\s+IK",
+        "Indian Kanoon short"
+      ],
+      [
+        "(\\d{4})\\s+Ind\\.?\\s*App?",
+        "Indian Appeals (Privy Council)"
+      ],
+      [
+        "(\\d{4})\\s+M\\.?I\\.?A\\.?",
+        "Moore's Indian Appeals"
+      ],
+      [
+        "(\\d{4})\\s+Ind\\.?\\s*Cas",
+        "Indian Cases"
+      ]
+    ],
+    "generic": [
+      [
+        "\\[(\\d{4})\\]",
+        "Square bracket year [2020] (generic Commonwealth)"
+      ],
+      [
+        "\\((\\d{4})\\)",
+        "Parenthetical year (1998) (most generic)"
+      ],
+      [
+        "/(\\d{4})(?:/|$)",
+        "Year in URL path: /1998/ or /1998"
+      ]
+    ]
+  },
+  "citation_patterns": {
+    "us": [
+      "\\b\\d{1,4}\\s+U\\.\\s?S\\.\\s+\\d+",
+      "\\b\\d{1,4}\\s+S\\.\\s?Ct\\.\\s+\\d+",
+      "\\b\\d{1,4}\\s+F\\.\\s?(?:2d|3d|4th)\\s+\\d+",
+      "\\b\\d{1,4}\\s+F\\.\\s?Supp\\.\\s?(?:2d|3d)?\\s+\\d+",
+      "\\b\\d{4}\\s+WL\\s+\\d+"
+    ],
+    "uk_commonwealth": [
+      "\\[\\d{4}\\]\\s+(?:UKSC|UKHL|UKPC|EWCA|EWHC)\\s+(?:Civ\\s+|Crim\\s+)?\\d+",
+      "\\[\\d{4}\\]\\s+\\d*\\s*(?:All\\s?ER|WLR)\\s+\\d+"
+    ],
+    "india": [
+      "AIR\\s+\\d{4}\\s+[A-Z][a-z]*\\s+\\d+",
+      "\\(\\d{4}\\)\\s*\\d+\\s*SCC\\s+\\d+",
+      "\\d{4}\\s+INSC\\s+\\d+",
+      "\\(\\d{4}\\)\\s*SCR\\s+\\d+"
+    ]
+  },
+  "known_overruled": [
+    {
+      "citation": "163 U.S. 537",
+      "status": "overruled",
+      "overruled_by": "347 U.S. 483",
+      "date": "1954-05-17",
+      "description": "Plessy v. Ferguson (separate but equal) overruled in Brown v. Board of Education"
+    },
+    {
+      "citation": "410 U.S. 113",
+      "status": "overruled",
+      "overruled_by": "597 U.S. 215",
+      "date": "2022-06-24",
+      "description": "Roe v. Wade overruled in Dobbs v. Jackson Women's Health Organization"
+    },
+    {
+      "citation": "467 U.S. 837",
+      "status": "overruled",
+      "overruled_by": "603 U.S. 369",
+      "date": "2024-06-28",
+      "description": "Chevron U.S.A. Inc. v. NRDC overruled in Loper Bright Enterprises v. Raimondo"
+    }
+  ]
+}

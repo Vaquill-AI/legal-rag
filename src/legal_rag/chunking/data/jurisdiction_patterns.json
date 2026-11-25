@@ -1,0 +1,158 @@
+{
+  "version": 1,
+  "default_packs": [
+    "us"
+  ],
+  "packs": {
+    "us": {
+      "description": "United States agency guidance and notices. Active by default.",
+      "classification": {
+        "circular": [
+          [
+            "FEDERAL REGISTER",
+            0.8,
+            "i"
+          ],
+          [
+            "^AGENCY\\s*:",
+            0.8,
+            "mi"
+          ],
+          [
+            "^ACTION\\s*:\\s*(?:NOTICE|FINAL RULE|PROPOSED RULE)",
+            0.9,
+            "mi"
+          ],
+          [
+            "\\bDOCKET NO\\.?",
+            0.6,
+            "i"
+          ],
+          [
+            "(?:BULLETIN|ADVISORY|INFORMATION LETTER) NO\\.?",
+            0.85,
+            "i"
+          ],
+          [
+            "DEAR (?:COLLEAGUE|CHIEF EXECUTIVE|MEMBER)",
+            0.8,
+            "i"
+          ]
+        ],
+        "regulatory": [
+          [
+            "CODE OF FEDERAL REGULATIONS",
+            0.85,
+            "i"
+          ],
+          [
+            "\\d+\\s+C\\.F\\.R\\.\\s+(?:PART|\u00a7)",
+            0.8,
+            "i"
+          ],
+          [
+            "NO-ACTION LETTER",
+            0.9,
+            "i"
+          ]
+        ]
+      }
+    },
+    "india": {
+      "description": "Court and regulator conventions used in Indian documents. Opt in with jurisdictions=['us', 'india'].",
+      "classification": {
+        "judgment": [
+          [
+            "(?:CIVIL|CRIMINAL) APPEAL NO\\.",
+            0.8,
+            "i"
+          ],
+          [
+            "WRIT PETITION",
+            0.7,
+            "i"
+          ],
+          [
+            "SPECIAL LEAVE PETITION",
+            0.8,
+            "i"
+          ],
+          [
+            "HON'?BLE\\s+(?:MR\\.|MS\\.|MRS\\.)?\\s*JUSTICE",
+            0.8,
+            "i"
+          ],
+          [
+            "CORAM\\s*:",
+            0.7,
+            "i"
+          ]
+        ],
+        "regulatory": [
+          [
+            "SEBI\\s*\\([^)]+\\)\\s*REGULATIONS",
+            0.98,
+            "i"
+          ],
+          [
+            "SEBI (?:CIRCULAR|NOTIFICATION|ORDER)",
+            0.95,
+            "i"
+          ],
+          [
+            "REGULATION\\s+\\d+(?:\\s+OF\\s+SEBI)?",
+            0.85,
+            "i"
+          ],
+          [
+            "RBI (?:CIRCULAR|MASTER DIRECTION|NOTIFICATION)",
+            0.95,
+            "i"
+          ],
+          [
+            "CIRCULAR NO\\.?\\s*[A-Z]+[/-]?\\d+",
+            0.8,
+            "i"
+          ],
+          [
+            "(?:GST|INCOME TAX) (?:NOTICE|ORDER|DEMAND)",
+            0.85,
+            "i"
+          ]
+        ],
+        "circular": [
+          [
+            "(?:RBI|SEBI|IRDA|PFRDA)\\s*/\\s*\\d{4}",
+            0.98,
+            "i"
+          ],
+          [
+            "(?:RBI|SEBI|IRDA|PFRDA) (?:CIRCULAR|NOTIFICATION)",
+            0.98,
+            "i"
+          ],
+          [
+            "RESERVE BANK OF INDIA",
+            0.95,
+            "i"
+          ],
+          [
+            "SECURITIES AND EXCHANGE BOARD",
+            0.95,
+            "i"
+          ],
+          [
+            "GAZETTE (?:NOTIFICATION|OF INDIA)",
+            0.95,
+            "i"
+          ],
+          [
+            "OFFICIAL GAZETTE",
+            0.9,
+            "i"
+          ]
+        ]
+      }
+    }
+  }
+}

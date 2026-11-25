@@ -1,0 +1,138 @@
+{
+  "description": "State citation forms. state_prefixes maps a lowercase citation prefix (state code or state reporter) to a two letter state code. regional_reporters maps a regional reporter to the states it covers.",
+  "state_prefixes": {
+    "cal.": "ca",
+    "cal. civ.": "ca",
+    "cal. civ. code": "ca",
+    "cal. code civ. proc.": "ca",
+    "cal. pen.": "ca",
+    "cal. pen. code": "ca",
+    "cal. bus.": "ca",
+    "cal. bus. & prof.": "ca",
+    "cal. corp.": "ca",
+    "cal. lab.": "ca",
+    "cal. rptr.": "ca",
+    "cal. app.": "ca",
+    "n.y.": "ny",
+    "n.y.s.": "ny",
+    "n.y.2d": "ny",
+    "n.y.3d": "ny",
+    "cplr": "ny",
+    "n.y. gen. oblig.": "ny",
+    "n.y. bus. corp.": "ny",
+    "tex.": "tx",
+    "tex. bus.": "tx",
+    "tex. bus. & com.": "tx",
+    "tex. civ. prac.": "tx",
+    "tex. civ. prac. & rem.": "tx",
+    "tex. fam.": "tx",
+    "tex. lab.": "tx",
+    "tex. pen.": "tx",
+    "trcp": "tx",
+    "del.": "de",
+    "del. code": "de",
+    "del. ch.": "de",
+    "dgcl": "de",
+    "fla.": "fl",
+    "fla. stat.": "fl",
+    "ill.": "il",
+    "ill. comp. stat.": "il",
+    "ilcs": "il",
+    "mass.": "ma",
+    "mass. gen. laws": "ma",
+    "n.j.": "nj",
+    "n.j. stat.": "nj",
+    "pa.": "pa",
+    "pa. cons. stat.": "pa",
+    "pa. c.s.": "pa",
+    "wash.": "wa",
+    "wash. rev. code": "wa",
+    "rcw": "wa",
+    "va. code": "va"
+  },
+  "regional_reporters": {
+    "s.w.": [
+      "ar",
+      "ky",
+      "mo",
+      "tn",
+      "tx"
+    ],
+    "s.w.2d": [
+      "ar",
+      "ky",
+      "mo",
+      "tn",
+      "tx"
+    ],
+    "s.w.3d": [
+      "ar",
+      "ky",
+      "mo",
+      "tn",
+      "tx"
+    ],
+    "a.2d": [
+      "ct",
+      "dc",
+      "de",
+      "md",
+      "me",
+      "nh",
+      "nj",
+      "pa",
+      "ri",
+      "vt"
+    ],
+    "a.3d": [
+      "ct",
+      "dc",
+      "de",
+      "md",
+      "me",
+      "nh",
+      "nj",
+      "pa",
+      "ri",
+      "vt"
+    ],
+    "so. 2d": [
+      "al",
+      "fl",
+      "la",
+      "ms"
+    ],
+    "so. 3d": [
+      "al",
+      "fl",
+      "la",
+      "ms"
+    ],
+    "so.2d": [
+      "al",
+      "fl",
+      "la",
+      "ms"
+    ],
+    "so.3d": [
+      "al",
+      "fl",
+      "la",
+      "ms"
+    ],
+    "n.e.2d": [
+      "il",
+      "in",
+      "ma",
+      "ny",
+      "oh"
+    ],
+    "n.e.3d": [
+      "il",
+      "in",
+      "ma",
+      "ny",
+      "oh"
+    ]
+  }
+}

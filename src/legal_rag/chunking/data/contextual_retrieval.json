@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "legal_functions": [
+    "definition", "obligation", "right", "condition", "limitation", "representation",
+    "warranty", "covenant", "procedure", "remedy"
+  ],
+  "signals": {
+    "contracts": "identify which party is bound, triggering conditions, and performance standards",
+    "judgments": "identify holding, ratio, obiter, and precedent status",
+    "statutes": "identify operative vs. non-operative provisions, exceptions, and proviso clauses"
+  }
+}

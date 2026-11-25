@@ -1,0 +1,262 @@
+{
+ "summary_judgment_standard": {
+  "ca": [
+   {
+    "citation": "Cal. Code Civ. Proc. § 437c",
+    "text": "California summary judgment is governed by Code of Civil Procedure section 437c. Defendant moving for summary judgment must show that one or more elements of the cause of action cannot be established or that a complete defense exists.",
+    "title": "California summary judgment statute",
+    "url": null
+   }
+  ],
+  "fl": [
+   {
+    "citation": "Fla. R. Civ. P. 1.510",
+    "text": "Florida summary judgment is governed by Florida Rule of Civil Procedure 1.510. The rule was amended in 2021 to align Florida's standard with the federal Celotex trilogy.",
+    "title": "Florida summary judgment rule",
+    "url": null
+   }
+  ],
+  "ga": [
+   {
+    "citation": "O.C.G.A. § 9-11-56",
+    "text": "Georgia summary judgment is governed by O.C.G.A. § 9-11-56. Mover must show that no genuine issue of material fact remains; on a defendant's motion, defendant may pierce the pleadings.",
+    "title": "Georgia summary judgment statute",
+    "url": null
+   }
+  ],
+  "il": [
+   {
+    "citation": "735 ILCS 5/2-1005",
+    "text": "Illinois summary judgment is governed by 735 ILCS 5/2-1005. Judgment is proper only where pleadings, depositions, admissions, and affidavits show no genuine issue as to any material fact.",
+    "title": "Illinois summary judgment statute",
+    "url": null
+   }
+  ],
+  "la": [
+   {
+    "citation": "La. C.C.P. art. 966",
+    "text": "Louisiana summary judgment is governed by La. C.C.P. art. 966. Mover bears the initial burden; if the mover will not bear the burden of proof at trial, mover need only point out the absence of factual support for an essential element of the adverse party's claim.",
+    "title": "Louisiana summary judgment procedure",
+    "url": null
+   }
+  ],
+  "ma": [
+   {
+    "citation": "Mass. R. Civ. P. 56",
+    "text": "Massachusetts summary judgment is governed by Massachusetts Rule of Civil Procedure 56, which mirrors the federal rule. Kourouvacilis v. General Motors Corp., 410 Mass. 706 (1991), adopted the Celotex burden-shifting framework.",
+    "title": "Massachusetts summary judgment rule",
+    "url": null
+   }
+  ],
+  "mi": [
+   {
+    "citation": "MCR 2.116(C)(10)",
+    "text": "Michigan summary disposition under MCR 2.116(C)(10) tests the factual sufficiency of a claim. The court considers documentary evidence in the light most favorable to the non-moving party.",
+    "title": "Michigan summary disposition rule",
+    "url": null
+   }
+  ],
+  "nc": [
+   {
+    "citation": "N.C. R. Civ. P. 56",
+    "text": "North Carolina summary judgment is governed by Rule 56 of the North Carolina Rules of Civil Procedure (codified at N.C.G.S. § 1A-1).",
+    "title": "North Carolina summary judgment rule",
+    "url": null
+   }
+  ],
+  "nj": [
+   {
+    "citation": "N.J. Ct. R. 4:46-2",
+    "text": "New Jersey summary judgment is governed by Court Rule 4:46-2. Brill v. Guardian Life Ins. Co. of America, 142 N.J. 520 (1995), set the controlling state standard.",
+    "title": "New Jersey summary judgment rule",
+    "url": null
+   }
+  ],
+  "ny": [
+   {
+    "citation": "N.Y. C.P.L.R. 3212",
+    "text": "New York summary judgment is governed by CPLR 3212. Movant must make a prima facie showing of entitlement as a matter of law; burden then shifts to opponent to produce evidentiary proof in admissible form sufficient to require a trial.",
+    "title": "New York summary judgment rule",
+    "url": null
+   }
+  ],
+  "oh": [
+   {
+    "citation": "Ohio Civ. R. 56",
+    "text": "Ohio summary judgment is governed by Ohio Civil Rule 56. Dresher v. Burt, 75 Ohio St. 3d 280 (1996), adopted the Celotex burden-shifting framework for Ohio.",
+    "title": "Ohio summary judgment rule",
+    "url": null
+   }
+  ],
+  "or": [
+   {
+    "citation": "Or. R. Civ. P. 47",
+    "text": "Oregon summary judgment is governed by Oregon Rule of Civil Procedure 47. The Oregon rule departs from the federal Celotex framework; movant bears the burden of production on every issue, even those on which the non-movant would bear the burden at trial.",
+    "title": "Oregon summary judgment rule",
+    "url": null
+   }
+  ],
+  "pa": [
+   {
+    "citation": "Pa. R. Civ. P. 1035.1-1035.5",
+    "text": "Pennsylvania summary judgment is governed by Pa. R. Civ. P. 1035.1 through 1035.5. Motion may be granted where there is no genuine issue of material fact and the moving party is entitled to judgment as a matter of law.",
+    "title": "Pennsylvania summary judgment rules",
+    "url": null
+   }
+  ],
+  "tx": [
+   {
+    "citation": "Tex. R. Civ. P. 166a",
+    "text": "Texas summary judgment is governed by Texas Rule of Civil Procedure 166a. Subsection (c) is the traditional motion; subsection (i) is the no-evidence motion, available after adequate time for discovery.",
+    "title": "Texas summary judgment rule",
+    "url": null
+   }
+  ],
+  "va": [
+   {
+    "citation": "Va. Sup. Ct. R. 3:20",
+    "text": "Virginia summary judgment is governed by Virginia Supreme Court Rule 3:20. Unlike most states, Virginia does not permit summary judgment to be supported by deposition testimony absent agreement of the parties.",
+    "title": "Virginia summary judgment rule",
+    "url": null
+   }
+  ],
+  "wa": [
+   {
+    "citation": "Wash. Sup. Ct. CR 56",
+    "text": "Washington summary judgment is governed by Civil Rule 56 of the Washington Superior Court Rules, which mirrors the federal rule.",
+    "title": "Washington summary judgment rule",
+    "url": null
+   }
+  ]
+ },
+ "twombly_iqbal_pleading": {
+  "ca": [
+   {
+    "citation": "Cal. Code Civ. Proc. § 430.10(e)",
+    "text": "California tests a failed claim through a general demurrer under Code of Civil Procedure section 430.10(e). The court treats demurrer as admitting all material facts properly pleaded but not contentions, deductions, or conclusions.",
+    "title": "California demurrer for failure to state a cause of action",
+    "url": null
+   }
+  ],
+  "fl": [
+   {
+    "citation": "Fla. R. Civ. P. 1.140(b)(6)",
+    "text": "Florida motion to dismiss for failure to state a cause of action is governed by Florida Rule of Civil Procedure 1.140(b)(6). Court accepts allegations as true and looks only within the four corners of the complaint.",
+    "title": "Florida motion to dismiss for failure to state a cause of action",
+    "url": null
+   }
+  ],
+  "ga": [
+   {
+    "citation": "O.C.G.A. § 9-11-12(b)(6)",
+    "text": "Georgia motion to dismiss for failure to state a claim is governed by O.C.G.A. § 9-11-12(b)(6). The complaint should not be dismissed unless it appears beyond doubt the plaintiff can prove no set of facts entitling relief.",
+    "title": "Georgia motion to dismiss for failure to state a claim",
+    "url": null
+   }
+  ],
+  "il": [
+   {
+    "citation": "735 ILCS 5/2-615",
+    "text": "Illinois motion to dismiss for legally insufficient pleading is governed by 735 ILCS 5/2-615. All well-pleaded facts are accepted as true and a complaint should not be dismissed unless it clearly appears no set of facts could be proved.",
+    "title": "Illinois motion to dismiss for failure to state a claim",
+    "url": null
+   }
+  ],
+  "la": [
+   {
+    "citation": "La. C.C.P. art. 927",
+    "text": "Louisiana tests a failed claim through the peremptory exception of no cause of action under La. C.C.P. art. 927(A)(5). The court accepts as true the well-pleaded facts of the petition; no evidence may be introduced to support or controvert the exception.",
+    "title": "Louisiana peremptory exception of no cause of action",
+    "url": null
+   }
+  ],
+  "ma": [
+   {
+    "citation": "Mass. R. Civ. P. 12(b)(6)",
+    "text": "Massachusetts motion to dismiss is governed by Mass. R. Civ. P. 12(b)(6). Iannacchino v. Ford Motor Co., 451 Mass. 623 (2008), adopted the federal Twombly plausibility standard for Massachusetts.",
+    "title": "Massachusetts motion to dismiss for failure to state a claim",
+    "url": null
+   }
+  ],
+  "mi": [
+   {
+    "citation": "MCR 2.116(C)(8)",
+    "text": "Michigan tests legally insufficient pleadings through summary disposition under MCR 2.116(C)(8). Decision is based on the pleadings alone, accepting all well-pleaded factual allegations as true.",
+    "title": "Michigan summary disposition for failure to state a claim",
+    "url": null
+   }
+  ],
+  "nc": [
+   {
+    "citation": "N.C. R. Civ. P. 12(b)(6)",
+    "text": "North Carolina motion to dismiss for failure to state a claim is governed by Rule 12(b)(6) of the North Carolina Rules of Civil Procedure. Dismissal is proper only when it appears the plaintiff can prove no set of facts entitling relief.",
+    "title": "North Carolina motion to dismiss for failure to state a claim",
+    "url": null
+   }
+  ],
+  "nj": [
+   {
+    "citation": "N.J. Ct. R. 4:6-2(e)",
+    "text": "New Jersey motion to dismiss for failure to state a claim is governed by N.J. Court Rule 4:6-2(e). Court must give the non-movant the benefit of all reasonable inferences and search the complaint thoroughly for a viable cause of action.",
+    "title": "New Jersey motion to dismiss for failure to state a claim",
+    "url": null
+   }
+  ],
+  "ny": [
+   {
+    "citation": "N.Y. C.P.L.R. 3211(a)(7)",
+    "text": "New York motion to dismiss for failure to state a cause of action is governed by CPLR 3211(a)(7). Pleading is construed liberally; the court must accept facts as true and determine only whether they fit within any cognizable legal theory.",
+    "title": "New York motion to dismiss for failure to state a cause of action",
+    "url": null
+   }
+  ],
+  "oh": [
+   {
+    "citation": "Ohio Civ. R. 12(B)(6)",
+    "text": "Ohio motion to dismiss is governed by Ohio Civil Rule 12(B)(6). York v. Ohio State Hwy. Patrol, 60 Ohio St. 3d 143 (1991), held the complaint must be construed in the light most favorable to plaintiff.",
+    "title": "Ohio motion to dismiss for failure to state a claim",
+    "url": null
+   }
+  ],
+  "or": [
+   {
+    "citation": "Or. R. Civ. P. 21A(8)",
+    "text": "Oregon motion to dismiss for failure to state ultimate facts sufficient to constitute a claim is governed by Oregon Rule of Civil Procedure 21A(8). All well-pleaded facts are accepted as true.",
+    "title": "Oregon motion to dismiss for failure to state ultimate facts",
+    "url": null
+   }
+  ],
+  "pa": [
+   {
+    "citation": "Pa. R. Civ. P. 1028(a)(4)",
+    "text": "Pennsylvania tests legally insufficient pleadings through preliminary objections in the nature of a demurrer under Pa. R. Civ. P. 1028(a)(4). Court accepts as true all well-pleaded facts and inferences reasonably deducible therefrom.",
+    "title": "Pennsylvania preliminary objection in the nature of demurrer",
+    "url": null
+   }
+  ],
+  "tx": [
+   {
+    "citation": "Tex. R. Civ. P. 91a",
+    "text": "Texas motion to dismiss for a baseless cause of action is governed by Texas Rule of Civil Procedure 91a. A cause is baseless if it has no basis in law or no basis in fact.",
+    "title": "Texas motion to dismiss baseless cause of action",
+    "url": null
+   }
+  ],
+  "va": [
+   {
+    "citation": "Va. Code § 8.01-273",
+    "text": "Virginia tests legally insufficient pleadings through a demurrer under Va. Code § 8.01-273. Demurrer admits the truth of all material facts properly pleaded; court does not consider the strength of the plaintiff's proof.",
+    "title": "Virginia demurrer",
+    "url": null
+   }
+  ],
+  "wa": [
+   {
+    "citation": "Wash. Sup. Ct. CR 12(b)(6)",
+    "text": "Washington motion to dismiss for failure to state a claim is governed by Civil Rule 12(b)(6) of the Washington Superior Court Rules. Dismissal is appropriate only if it appears beyond doubt that plaintiff can prove no set of facts justifying relief.",
+    "title": "Washington motion to dismiss for failure to state a claim",
+    "url": null
+   }
+  ]
+ }
+}

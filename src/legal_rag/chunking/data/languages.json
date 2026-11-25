@@ -1,0 +1,254 @@
+{
+  "version": 1,
+  "languages": {
+    "en": {
+      "name": "English",
+      "script": "latin"
+    },
+    "hi": {
+      "name": "Hindi",
+      "script": "devanagari"
+    },
+    "ta": {
+      "name": "Tamil",
+      "script": "tamil"
+    },
+    "te": {
+      "name": "Telugu",
+      "script": "telugu"
+    },
+    "kn": {
+      "name": "Kannada",
+      "script": "kannada"
+    },
+    "ml": {
+      "name": "Malayalam",
+      "script": "malayalam"
+    },
+    "gu": {
+      "name": "Gujarati",
+      "script": "gujarati"
+    },
+    "mr": {
+      "name": "Marathi",
+      "script": "devanagari"
+    },
+    "bn": {
+      "name": "Bengali",
+      "script": "bengali"
+    },
+    "pa": {
+      "name": "Punjabi",
+      "script": "gurmukhi"
+    },
+    "or": {
+      "name": "Odia",
+      "script": "odia"
+    },
+    "as": {
+      "name": "Assamese",
+      "script": "bengali"
+    },
+    "ur": {
+      "name": "Urdu",
+      "script": "arabic"
+    },
+    "ar": {
+      "name": "Arabic",
+      "script": "arabic"
+    },
+    "ne": {
+      "name": "Nepali",
+      "script": "devanagari"
+    },
+    "sa": {
+      "name": "Sanskrit",
+      "script": "devanagari"
+    }
+  },
+  "script_languages": {
+    "tamil": "ta",
+    "telugu": "te",
+    "kannada": "kn",
+    "malayalam": "ml",
+    "gujarati": "gu",
+    "bengali": "bn",
+    "gurmukhi": "pa",
+    "odia": "or"
+  },
+  "devanagari_indicators": {
+    "mr": [
+      "\u0906\u0939\u0947",
+      "\u0906\u0923\u093f",
+      "\u0928\u093e\u0939\u0940",
+      "\u0939\u094b\u0924\u0947",
+      "\u0939\u094b\u0924\u0940",
+      "\u0915\u0930\u0923\u0947",
+      "\u0915\u0930\u0924\u094b"
+    ],
+    "ne": [
+      "\u091b",
+      "\u0939\u094b",
+      "\u0917\u0930\u094d\u0928",
+      "\u092d\u090f\u0915\u094b",
+      "\u0939\u0941\u0928\u0947"
+    ],
+    "sa": [
+      "\u0905\u0938\u094d\u0924\u093f",
+      "\u092d\u0935\u0924\u093f",
+      "\u0915\u0930\u094b\u0924\u093f",
+      "\u0917\u091a\u094d\u091b\u0924\u093f"
+    ]
+  },
+  "default_devanagari_language": "hi",
+  "urdu_markers": [
+    "\u0679",
+    "\u0688",
+    "\u0691",
+    "\u06ba",
+    "\u06d2",
+    "\u06be",
+    "\u06c1"
+  ],
+  "romanized_words": {
+    "hi": [
+      "aana",
+      "aaropi",
+      "aate",
+      "aati",
+      "aaya",
+      "aaye",
+      "aayi",
+      "accha",
+      "achha",
+      "adalat",
+      "agar",
+      "aur",
+      "bada",
+      "bahut",
+      "bhi",
+      "bura",
+      "chota",
+      "dafa",
+      "dena",
+      "dete",
+      "deti",
+      "dhara",
+      "di",
+      "diya",
+      "diye",
+      "gawah",
+      "gaya",
+      "gaye",
+      "gayi",
+      "hai",
+      "hain",
+      "hona",
+      "hota",
+      "hote",
+      "hoti",
+      "hua",
+      "hue",
+      "hui",
+      "in",
+      "is",
+      "jab",
+      "jana",
+      "jate",
+      "jati",
+      "kahan",
+      "kaise",
+      "kanoon",
+      "karna",
+      "karte",
+      "karti",
+      "kaun",
+      "ke",
+      "ki",
+      "kitna",
+      "kitne",
+      "kiya",
+      "kiye",
+      "ko",
+      "kya",
+      "kyunki",
+      "lekin",
+      "lena",
+      "lete",
+      "leti",
+      "li",
+      "liya",
+      "liye",
+      "mat",
+      "mera",
+      "mere",
+      "meri",
+      "mukadma",
+      "nahi",
+      "nahin",
+      "naya",
+      "nyay",
+      "saza",
+      "sirf",
+      "tab",
+      "tak",
+      "tera",
+      "tere",
+      "teri",
+      "tha",
+      "thi",
+      "un",
+      "us",
+      "wo",
+      "woh",
+      "ye",
+      "yeh"
+    ]
+  },
+  "legal_terms": {
+    "hi": [
+      "\u0927\u093e\u0930\u093e",
+      "\u0905\u092a\u0930\u093e\u0927",
+      "\u0926\u0902\u0921",
+      "\u0928\u094d\u092f\u093e\u092f\u093e\u0932\u092f",
+      "\u0905\u0926\u093e\u0932\u0924",
+      "\u092e\u0941\u0915\u0926\u092e\u093e",
+      "\u0905\u092d\u093f\u092f\u0941\u0915\u094d\u0924",
+      "\u0917\u0935\u093e\u0939",
+      "\u0938\u091c\u093e",
+      "\u091c\u092e\u093e\u0928\u0924",
+      "\u0905\u092a\u0940\u0932",
+      "\u092f\u093e\u091a\u093f\u0915\u093e"
+    ],
+    "ta": [
+      "\u0baa\u0bbf\u0bb0\u0bbf\u0bb5\u0bc1",
+      "\u0b95\u0bc1\u0bb1\u0bcd\u0bb1\u0bae\u0bcd",
+      "\u0ba4\u0ba3\u0bcd\u0b9f\u0ba9\u0bc8",
+      "\u0ba8\u0bc0\u0ba4\u0bbf\u0bae\u0ba9\u0bcd\u0bb1\u0bae\u0bcd"
+    ],
+    "te": [
+      "\u0c38\u0c46\u0c15\u0c4d\u0c37\u0c28\u0c4d",
+      "\u0c28\u0c47\u0c30\u0c02",
+      "\u0c36\u0c3f\u0c15\u0c4d\u0c37",
+      "\u0c15\u0c4b\u0c30\u0c4d\u0c1f\u0c41"
+    ],
+    "mr": [
+      "\u0915\u0932\u092e",
+      "\u0917\u0941\u0928\u094d\u0939\u093e",
+      "\u0936\u093f\u0915\u094d\u0937\u093e",
+      "\u0928\u094d\u092f\u093e\u092f\u093e\u0932\u092f"
+    ],
+    "gu": [
+      "\u0a95\u0ab2\u0aae",
+      "\u0a97\u0ac1\u0aa8\u0acb",
+      "\u0ab8\u0a9c\u0abe",
+      "\u0a85\u0aa6\u0abe\u0ab2\u0aa4"
+    ],
+    "bn": [
+      "\u09a7\u09be\u09b0\u09be",
+      "\u0985\u09aa\u09b0\u09be\u09a7",
+      "\u09a6\u09a3\u09cd\u09a1",
+      "\u0986\u09a6\u09be\u09b2\u09a4"
+    ]
+  }
+}
